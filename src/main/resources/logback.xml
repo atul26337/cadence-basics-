@@ -10,10 +10,8 @@
 
     </appender>
 
-    <logger name="com.uber.cadence.client" level="DEBUG"> </logger>
-    <logger name="io.micronaut.context.condition" level="trace"> </logger>
 
-    <root level="DEBUG">
+    <root level="info">
         <appender-ref ref="STDOUT" />
     </root>
 
