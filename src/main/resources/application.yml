@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: cadence
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+cadence:
+  config:
+    host: ${CADENCE_HOST:`172.31.14.218`}
+    port: 7933
